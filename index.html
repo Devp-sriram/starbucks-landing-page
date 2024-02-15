@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="cirlce"></div>
+      <header>
+        <a href="https://www.starbucks.in/dashboard" target="_blank" class="logo"><img src="assests/download.jpeg"></a>
+        <ul>
+          <li><a href="https://www.starbucks.in/dashboard" target="_blank">Home</a></li>
+          <li><a href="https://www.starbucks.in/ordering " target="_blank">Menu</a></li>
+          <li><a href="https://www.starbucks.in/rewards " target ="_blank">What's new</a></li>
+          <li><a href="https://www.starbucks.in/profile/help-center "target="blank">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textbox">
+          <h2>
+            It's not just coffee<br />
+            It's <span>Starbucks</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            neque explicabo id facere odit, veritatis rerum alias adipisci culpa
+            esse doloremque unde ratione optio minima iusto vel voluptate, vitae
+            aperiam reprehenderit impedit quo! Exercitationem pariatur quo,
+            quasi, minima in distinctio sapiente incidunt quod, tenetur
+            repudiandae explicabo culpa. Porro, quod repudiandae.
+          </p>
+          <a href="https://www.starbucks.in/Blogs" target="_blank">learn more</a>
+        </div>
+        <div class="imagebox">
+          <img src="assests/green shake.png" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <a href=""><img src="assests/green shake.png" onclick="imgSlider('assests/green shake.png');changeCirleColor('#017143')"/></a>
+        <a href=""><img src="assests/chocolate.png"  onclick="imgSlider('assests/chocolate.png');changeCirleColor('#eb7495')"/></a>
+        <a href=""><img src="assests/srawberry  shake.png"  onclick="imgSlider('assests/srawberry  shake.png');changeCirleColor('#d752b1')"/></a>
+      </ul>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/Starbucks/" target="_blank" ><img src="assests/face.webp"></a></li>
+        <li><a href="https://www.instagram.com/starbucks/" target="_blank" ><img src="assests/insta.webp"></a></li>
+        <li><a href="https://twitter.com/starbucks/" target="_blank" ><img src="assests/2284759.webp"></a></li>
+      </ul>
+    </section>
+
+    <script type ="text/javascript">
+        function imgSlider(anything){
+            document.querySelector("assests/assests/green shake.png").src = anything
+        }
+        function circleColor (anything){
+            const circle =document.querySelector(".cirlce");
+            circle.style.background =color;
+        }
+
+    </script>
+  </body>
+</html>
